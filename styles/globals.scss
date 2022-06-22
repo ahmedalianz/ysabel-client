@@ -1,0 +1,81 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  word-break: break-word;
+  font-family: "Cairo", sans-serif;
+  --background-color: #faf0e6;
+  --buttons-color: #63544d;
+  --font-color: #000000;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.main-button {
+  border-radius: 15px;
+  background-color: var(--buttons-color);
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+  &.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--buttons-color);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--buttons-color);
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.3rem;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+.ar {
+  .modal-header .btn-close {
+    margin: 0 !important;
+  }
+  .modal-footer {
+    flex-direction: row-reverse;
+  }
+  .form-floating > label {
+    left: auto;
+    right: 0;
+  }
+}
+@import "./Navbar.scss";
+@import "./Featured.scss";
+@import "~bootstrap/scss/bootstrap";
+@import "react-toastify/dist/ReactToastify.css";
+@import "ProductsList.scss";
+@import "ProductsListCard.scss";
+@import "NewProducts.scss";
+@import "Footer.scss";
+@import "AdminLogin.scss";
+@import "About.scss";
+@import "NewProductCard.scss";
+@import "./Filler.scss";
+@import "swiper/css";
+@import "swiper/css/navigation";

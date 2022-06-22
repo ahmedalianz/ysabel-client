@@ -1,0 +1,39 @@
+.navbar {
+  background-color: var(--background-color);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  .dropdown-toggle::after {
+    display: none;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    .logo {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .item {
+      position: absolute;
+      &.menu {
+        left: 10px;
+        &.ar {
+          right: 10px;
+          left: auto;
+        }
+      }
+      &.language {
+        right: 10px;
+        &.ar {
+          right: auto;
+          left: 10px;
+        }
+      }
+    }
+  }
+}

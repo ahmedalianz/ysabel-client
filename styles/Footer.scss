@@ -1,0 +1,47 @@
+.footer {
+  height: 8rem;
+  position: relative;
+  p {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 1rem;
+    font-weight: bold;
+    align-self: center;
+    color: var(--font-color);
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+    a {
+      margin: 0 0.5rem;
+    }
+  }
+  .link-page {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    a {
+      font-size: 1.2rem;
+      margin: 0 10px;
+      color: var(--font-color);
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .footer {
+    height: 9rem;
+    p {
+      font-size: 1.5rem;
+      padding-top: 1.5rem;
+    }
+    .social {
+      display: flex;
+      justify-content: center;
+      a {
+        margin: 0 0.5rem;
+      }
+    }
+  }
+}
