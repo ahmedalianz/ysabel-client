@@ -38,7 +38,7 @@
   "Yes": "نعم",
   "No": "لا",
   "delete_product_confirmation": "هل انت متأكد من حذف المنتج",
-  "delete_category_confirmation": "هل انت متأكد من حذف التصنيف",
+  "delete_category_confirmation": " هل انت متأكد من حذف التصنيف؟ مع العلم ان حذف التصنيف سيؤدي الي حذف جميع المنتجات المرتبطه به , اذا كنت لا تريد حذف المنتجات قم بنقلها لتصنيف اخر",
   "fill_all_fields": "من فضلك املأ كل الحقول",
   "featured_title_1": "شهية",
   "featured_subtitle_1": "أشهي الكعكات نقدمها لك",

@@ -7,7 +7,7 @@ import { setCategories } from "redux/categories";
 import { setProducts } from "redux/products";
 import { useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
-import Image from "next/image";
+import Loader from "components/Loader/Loader";
 export default function Home() {
   const [loading, setLoading] = useState(true);
   const dispatch = useDispatch();
@@ -36,12 +36,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {loading ? (
-        <Image
-          layout="fill"
-          src="/images/loading.gif"
-          objectFit="cover"
-          quality={100}
-        />
+        <Loader />
       ) : (
         <>
           <Filler />

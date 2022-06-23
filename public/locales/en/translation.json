@@ -32,7 +32,7 @@
   "Category_Added": "Category Added",
   "error": "Something went wrong",
   "delete_product_confirmation": "Are you sure you want to delete this product?",
-  "delete_category_confirmation": "Are you sure you want to delete this category?",
+  "delete_category_confirmation": "Are you sure you want to delete this category ? noting that deleting the category will lead to removal of all related products , if you want to keep the products you probaply need to move them to other category",
   "fill_all_fields": "Please fill all fields",
   "featured_title_1": "Delicious",
   "featured_subtitle_1": "Cakes For You",
