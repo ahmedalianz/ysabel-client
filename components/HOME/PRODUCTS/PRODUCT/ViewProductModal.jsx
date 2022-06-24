@@ -26,7 +26,7 @@ export default function ViewProductModal(props) {
           <div className="view-product__image">
             <Image
               src={
-                "http://156.67.210.60:8000" + "/" + props.product.image ||
+                process.env.NEXT_PUBLIC_API_URL + "/" + props.product.image ||
                 "/images/product.png"
               }
               width={200}

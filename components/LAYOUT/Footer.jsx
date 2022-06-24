@@ -14,32 +14,13 @@ export default function Footer() {
       />
       <Container>
         <p>
-          © {new Date().getFullYear()} {t("footer_copyrights")}
+          Copyright © {new Date().getFullYear()} YSABEL LOUNGE | Powered by Air
+          Menu
         </p>
         <div className="social">
-          <Link href="/">
-            <Image
-              src="/images/facebook.webp"
-              alt="facebook"
-              width={25}
-              height={25}
-              quality={100}
-              objectFit="cover"
-            />
-          </Link>
-          <Link href="/">
+          <Link href="https://www.instagram.com/ysabel.lounge" passHref>
             <Image
               src="/images/instagram.webp"
-              alt="facebook"
-              width={25}
-              height={25}
-              quality={100}
-              objectFit="cover"
-            />
-          </Link>
-          <Link href="/">
-            <Image
-              src="/images/twitter.webp"
               alt="facebook"
               width={25}
               height={25}

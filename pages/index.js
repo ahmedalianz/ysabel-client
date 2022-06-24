@@ -26,7 +26,7 @@ export default function Home() {
       setLoading(false);
     }
     getProducts();
-  }, [products]);
+  }, []);
 
   return (
     <div>

@@ -23,7 +23,7 @@ export default function AddCategoryModal(props) {
   useEffect(() => {
     if (props.category) {
       setName(props.category.name);
-      setImage("http://156.67.210.60:8000" + "/" + props.category.image);
+      setImage(process.env.NEXT_PUBLIC_API_URL + "/" + props.category.image);
     }
   }, [props.category]);
   const chooseFile = (e) => {

@@ -51,7 +51,7 @@ export default function ProductListCard({
         <div className="product-card__image">
           <Image
             src={
-              "http://156.67.210.60:8000" + "/" + product.image ||
+              process.env.NEXT_PUBLIC_API_URL + "/" + product.image ||
               "/images/product.png"
             }
             width={100}
